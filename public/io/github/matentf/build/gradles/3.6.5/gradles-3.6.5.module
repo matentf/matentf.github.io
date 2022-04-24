@@ -1,0 +1,286 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.matentf.build",
+    "module": "gradles",
+    "version": "3.6.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tcusndjcpnbqdi4b2nxqp3xdc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gradles-3.6.5.jar",
+          "url": "gradles-3.6.5.jar",
+          "size": 6968452,
+          "sha512": "aeb0eff6f2c0e932dd7e0ee4200766516dfbe16339655891d99cf5dbad957e79fe5acb3211efd8129c7acd628638a676d3beb79c76f551c59b878edae12785b0",
+          "sha256": "bb19f089a11e6b1c4ccb2ded6034a6186389b4cf1c1792e0e981fc7f5c819b40",
+          "sha1": "f314ae67f1e765b3d25a7a8d59a68bf9d055f383",
+          "md5": "7bd42944ca3cef9e8065ae83c715d332"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "builder",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "aapt2-proto",
+          "version": {
+            "requires": "4.1.0-6503028"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "aaptcompiler",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.analytics-library",
+          "module": "crash",
+          "version": {
+            "requires": "27.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.lint",
+          "module": "lint-gradle-api",
+          "version": {
+            "requires": "27.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-compiler-common",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "7.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "7.0"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "4.9"
+          }
+        },
+        {
+          "group": "net.sf.proguard",
+          "module": "proguard-gradle",
+          "version": {
+            "requires": "6.0.3"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "bundletool",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build.jetifier",
+          "module": "jetifier-core",
+          "version": {
+            "requires": "1.0.0-beta09"
+          }
+        },
+        {
+          "group": "com.android.tools.build.jetifier",
+          "module": "jetifier-processor",
+          "version": {
+            "requires": "1.0.0-beta09"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink",
+          "version": {
+            "requires": "1.3.0-rc2"
+          }
+        },
+        {
+          "group": "com.google.test.platform",
+          "module": "core-proto",
+          "version": {
+            "requires": "0.0.2-dev"
+          }
+        },
+        {
+          "group": "com.google.flatbuffers",
+          "module": "flatbuffers-java",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow-lite-metadata",
+          "version": {
+            "requires": "0.1.0-rc1"
+          }
+        },
+        {
+          "group": "org.smali",
+          "module": "smali",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.18"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.0-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "com.fakerandroid.tools.build",
+          "module": "dex2jar",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradles-3.6.5.jar",
+          "url": "gradles-3.6.5.jar",
+          "size": 6968452,
+          "sha512": "aeb0eff6f2c0e932dd7e0ee4200766516dfbe16339655891d99cf5dbad957e79fe5acb3211efd8129c7acd628638a676d3beb79c76f551c59b878edae12785b0",
+          "sha256": "bb19f089a11e6b1c4ccb2ded6034a6186389b4cf1c1792e0e981fc7f5c819b40",
+          "sha1": "f314ae67f1e765b3d25a7a8d59a68bf9d055f383",
+          "md5": "7bd42944ca3cef9e8065ae83c715d332"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradles-3.6.5.jar",
+          "url": "gradles-3.6.5.jar",
+          "size": 6968452,
+          "sha512": "aeb0eff6f2c0e932dd7e0ee4200766516dfbe16339655891d99cf5dbad957e79fe5acb3211efd8129c7acd628638a676d3beb79c76f551c59b878edae12785b0",
+          "sha256": "bb19f089a11e6b1c4ccb2ded6034a6186389b4cf1c1792e0e981fc7f5c819b40",
+          "sha1": "f314ae67f1e765b3d25a7a8d59a68bf9d055f383",
+          "md5": "7bd42944ca3cef9e8065ae83c715d332"
+        }
+      ]
+    }
+  ]
+}
